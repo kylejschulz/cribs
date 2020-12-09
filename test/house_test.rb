@@ -73,14 +73,12 @@ class HouseTest < Minitest::Test
     @house.add_room(@room_2)
     @house.add_room(@room_3)
     @house.add_room(@room_4)
-     
 
     assert_equal [@room_1, @room_2, @room_3, @room_4], @house.rooms_sorted_by_area
 
   end
 
   def test_rooms_by_category
-    #
     @house.add_room(@room_1)
     @house.add_room(@room_2)
     @house.add_room(@room_3)
