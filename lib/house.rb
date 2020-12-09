@@ -17,6 +17,7 @@ class House
   def above_market_average?
     turn_price_to_int
     @price_int > 500000
+
   end
 
   def rooms_from_category(category)
